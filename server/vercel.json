@@ -5,8 +5,8 @@
   ],
   "routes":[
     {
-      "src":"/contact(.*)",
-      "dest":"/contact"
+      "src":"/(.*)",
+      "dest":"/"
     }
    
   ]
