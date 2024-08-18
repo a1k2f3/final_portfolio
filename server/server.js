@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 app.use(cors(
   {
-    origin:["//https://final-portfolio-c7zy.vercel.app/contact"],
+    origin:["https://final-portfolio-c7zy.vercel.app/contact"],
     methods:["POST,GET"],
     credentials:true
   }
